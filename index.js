@@ -25,7 +25,7 @@ function hunter() {
 };
 hunter();
 
-class Raabbit {
+class Rabbit {
 
     constructor(options) {
         this.x = options.x;
@@ -116,9 +116,9 @@ let options = {
     radius: 100,
     color: 'red'
 };
-let circle = new Raabbit(options);
+let rabbit = new Rabbit(options);
 console.log(circle.x);
-circle.draw();
-circle.moveTo();
-circle.rotateTurn(0.7);
-console.log(circle) // массив значений;
+rabbit.draw();
+rabbit.moveTo();
+rabbit.rotateTurn(0.7);
+console.log(rabbit) // массив значений;
